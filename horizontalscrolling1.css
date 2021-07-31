@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: white; /*optional*/
+    overflow: auto;
+    white-space: nowrap;
+    font-family: sans-serif; /*optional*/
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 2rem; /*optional*/
+    padding: 10px 20px; /*optional*/
+    text-decoration: none; 
+    color: black;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 100px;
+}
+
+/*optional*/
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*to hide the scrollbar*/
+::-webkit-scrollbar{
+    width: 0px;
+}
